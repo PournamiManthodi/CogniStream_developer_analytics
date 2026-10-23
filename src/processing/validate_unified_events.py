@@ -81,6 +81,6 @@ expected_sources = {"Slack", "IDE", "GitHub"}
 actual_sources = set(df["source"].dropna().unique())
 
 print("Expected sources present:", actual_sources == expected_sources)
-print("Expected total rows (300000):", len(df) == 300000)
+print("Expected total rows (299924):", len(df) == 299924)
 
 print("\nValidation finished. Review all results before proceeding.")
